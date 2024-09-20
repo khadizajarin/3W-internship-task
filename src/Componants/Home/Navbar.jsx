@@ -10,7 +10,7 @@ const Badge = ({ text, color, borderColor, icon }) => {
   };
 const Navbar = ({name}) => {
     return (
-        <div className="navbar bg-base-100 px-[1rem]">
+        <div className="navbar bg-white  px-[1rem]">
         <div className="flex-1">
             <a className=" font-semibold">{name}</a>
         </div>
